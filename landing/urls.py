@@ -18,5 +18,8 @@ from django.contrib import admin
 from landing import views
 
 urlpatterns = [
-    url(r'^redbutton/', views.landing, name='first'),
+    url(r'^redbutton/', views.first, name='first'),
+    url(r'^$', views.main, name='main'),
+    url(r'^second/', views.second, name='second'),
+    url(r'^149587343098087740000/', views.third, name='third'),
 ]

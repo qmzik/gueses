@@ -1,0 +1,82 @@
+html, body {
+
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: white;
+}
+
+p {
+    margin-top: 25%;
+    font-size: 40px;
+    color: white;
+}
+
+.line {
+    height: 20%;
+    font-size: 40px;
+    background-color: #E0FFFF;
+}
+
+.square {
+    height: 30%;
+}
+
+#page {
+    height: inherit;
+    width: inherit;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: #b59c0e;
+}
+
+.green {
+    background-color: green;
+}
+
+.teal {
+    background-color: teal;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue1 {
+    background-color: #0eb5b5;
+}
+
+.violet1 {
+    background-color: #aa0eb5;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.grey1 {
+    background-color: #4f4d4f;
+}
+
+.darkgreen {
+    background-color: #183b03;
+}
