@@ -21,5 +21,5 @@ urlpatterns = [
     url(r'^redbutton/', views.first, name='first'),
     url(r'^$', views.main, name='main'),
     url(r'^second/', views.second, name='second'),
-    url(r'^149587343098087740000/', views.third, name='third'),
+    url(r'^12230590464/', views.third, name='third'),
 ]
