@@ -1,12 +1,15 @@
 /**
- * Created by Никита on 10.05.2017.
+ * For main.html
  */
 
 $("body").vegas({
+    timer: false,
+    delay: 15000,
+    animation: 'kenburns',
     slides: [
-        { src: "http://respek.info/postimageswatermark/1168/2_full.jpg" },
-        { src: "http://murlo.org/ru/wp-content/uploads/2016/07/Самые-красивые-породы-кошек-британская-короткошерстная.jpg" },
-        { src: "http://www.gandex.ru/upl/oboi/u1752_6263_04.jpg" },
-        { src: "http://mirpozitiva.ru/uploads/posts/2016-10/1476878736_04545.jpg" }
+        { src: "http://raumrot.com/wp-content/uploads/2016/01/msp_1405_1460.jpg" },
+        { src: "http://raumrot.com/wp-content/uploads/2016/01/msp_1505_9979.jpg" },
+        { src: "http://raumrot.com/wp-content/uploads/2016/01/msp_1105_8935.jpg" },
+        { src: "http://raumrot.com/wp-content/uploads/2016/01/msp_0707_8001.jpg" }
     ]
 });
